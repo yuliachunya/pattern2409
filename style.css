@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+}
+.back {
+  position: absolute;
+  width: 1006px;
+  left: 50%;
+  margin-left: -503px;
+  opacity: 0.5;
+  top: 0;
+}
+.main-container {
+  width: 1000px;
+  border: 1px solid black;
+  margin: 9px auto ;
+}
+.minto-logo1-section {
+  height: 380px;
+  width: 1000px;
+  background-color: rgba(247, 247, 247, 0.8);
+  position: relative;
+  border-bottom: 7px solid #A51451;
+  margin-left: 0px;
+}
+.minto {
+  text-transform: uppercase;
+  width: 348px;
+  height: 357px;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  line-height: 364px;
+  font-size: 73px;
+  padding-left: 2px;
+  background-color: rgba(183, 162, 195, 0.66);
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-align: center;
+  border-radius: 100%;
+}
+.logo1 {
+  text-transform: uppercase;
+  width: 508px;
+  height: 87px;
+  position: absolute;
+  top: 139px;
+  left: 343px;
+  line-height: 50px;
+  font-size: 38px;
+  padding-left: 102px;
+}
+.navbar {
+  height: 96px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 85px;
+  align-items: center;
+  position: absolute;
+  margin-left: -3px;
+  color: white;
+}
+.navbar .navbar-link {
+  text-transform: uppercase;
+  position: relative;
+  top: 3px;
+  font-size: 8px;
+  margin-left: 0px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 10px;
+  padding-left: 9px;
+  margin: 35px;
+  font-size: 13px;
+  color: black;
+  left: 325px;
+  cursor: pointer;
+}
+.navbar .navbar-link:hover {
+  background-color: lightgrey;
+}
+.navbar .navbar-link.active {
+  background-color: grey;
+}
+.logo2 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 109px;
+  top: 22px;
+  line-height: 20px;
+  padding: 18px;
+  font-size: 23px;
+  border-radius: 100%;
+}
+.logo3 {
+  text-transform: uppercase;
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 159px;
+  top: 22px;
+  line-height: 23px;
+  padding: 18px;
+  font-size: 28px;
+  color: rgba(183, 162, 195, 0.66);
+}
+.banner .banner-photo {
+  height: 405px;
+  display: flex;
+  justify-content: center;
+  padding: 3px 106px;
+  align-items: center;
+  position: relative;
+}
+.banner .banner-photo .photo {
+  position: absolute;
+  height: 379px;
+  width: 794px;
+  background-color: rgba(183, 162, 195, 0.66);
+  top: 100px;
+  margin: 0 0 0 3px;
+}
+.banner .banner-text {
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  height: 99px;
+  width: 1000px;
+  top: 907px;
+  border-bottom: 5px solid #491381;
+  border-top: 5px solid #521381;
+  font-size: 24px;
+  background-color: white;
+}
+.banner .banner-text b:first-child {
+  color: rgba(54, 40, 62, 0.66);
+}
+.banner .banner-text2 {
+  position: relative;
+  height: 408px;
+  width: 500;
+  text-align: center;
+  left: 285px;
+  top: 42px;
+}
+.banner .pic {
+  position: absolute;
+  top: 200px;
+  background-color: rgba(183, 162, 195, 0.66);
+  box-shadow: 10px 10px 10px;
+  height: 210px;
+  width: 210px;
+  border-radius: 100%;
+  margin-left: -144px;
+}
+.banner .text2 {
+  position: absolute;
+  top: 1px;
+  height: 291px;
+  width: 500px;
+  margin-left: 250px;
+  font-size: 18px;
+  text-align: left;
+  background-color: white;
+}
+.banner .text2 .p-text {
+  position: absolute;
+  top: 40px;
+}
+.banner .text2 .read-more {
+  position: relative;
+  font-style: italic;
+  text-align: right;
+  top: 140px;
+  font-size: 10px;
+}
+.info {
+  top: 95px;
+  position: relative;
+  height: 144px;
+  width: 1000px;
+}
+.info .info-1 {
+  position: absolute;
+  top: -10px;
+  margin-left: 105px;
+  font-size: 20px;
+  background-color: white;
+}
+.info .info-2 {
+  border-top: 3px solid pink;
+  width: 544px;
+  margin-left: 360px;
+  margin-top: 15px;
+}
+.info .info-3 {
+  height: 100px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 129px;
+  font-size: 30px;
+}
+.info .info-3 .info3block {
+  top: 36px;
+  height: 57px;
+  line-height: 54px;
+  background-color: rgba(163, 155, 155, 0.37);
+  color: #2C2A2A;
+  width: 199px;
+}
+.footer {
+  background-color: rgba(255, 192, 204, 0.49);
+  border-bottom: 3px solid purple;
+  width: 1000px;
+  height: 54px;
+  position: relative;
+  top: 84px;
+  margin-left: 106px;
+  margin-right: 10px;
+  background-color: rgba(182, 112, 219, 0.34);
+}
+.footer .footer-text {
+  position: absolute;
+  font-size: 13px;
+  top: 17px;
+  padding-left: 124px;
+}
+.footer .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+.footer .footer-circles {
+  display: flex;
+  position: absolute;
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 14px;
+}
